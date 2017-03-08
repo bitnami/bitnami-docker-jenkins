@@ -28,4 +28,4 @@ EXPOSE 8080 8443 50000
 
 ENTRYPOINT ["/app-entrypoint.sh"]
 
-CMD ["nami", "start", "--foreground", "tomcat"]
+CMD ["catalina.sh", "run"]
