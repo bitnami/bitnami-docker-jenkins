@@ -28,4 +28,4 @@ EXPOSE 8080 8443 50000
 
 ENTRYPOINT ["/app-entrypoint.sh"]
 
-CMD ["/run-jenkins.sh"]
+CMD ["/run.sh"]
